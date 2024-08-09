@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header with Dropdown</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center position-relative" href="#">
+                <span class="dot bg-success rounded-circle mr-2"></span>
+                <div class="logo-container position-relative">
+                    <img src="./images/uptimerobot-logo.svg" alt="" width="150px">
+                    <span class="we-are-hiring position-absolute">We are hiring!</span>
+                </div>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Monitoring
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="keyword-monitoring-icon.png" alt="Keyword Monitoring"> -->
+                                        <div>
+                                            <strong>Keyword monitoring</strong>
+                                            <p>Check presence of any text on the page.</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="ping-monitoring-icon.png" alt="Ping Monitoring"> -->
+                                        <div>
+                                            <strong>Ping monitoring</strong>
+                                            <p>Leverage one of the most used network admin tools.</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="ssl-monitoring-icon.png" alt="SSL Monitoring"> -->
+                                        <div>
+                                            <strong>SSL monitoring</strong>
+                                            <p>Don't lose visitors because of expired SSL certificates.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="website-monitoring-icon.png" alt="Website Monitoring"> -->
+                                        <div>
+                                            <strong>Website monitoring</strong>
+                                            <p>Be the first to know that your website is down!</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="cron-job-monitoring-icon.png" alt="Cron Job Monitoring"> -->
+                                        <div>
+                                            <strong>Cron job monitoring</strong>
+                                            <p>Monitor background jobs or intranet devices.</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="domain-monitoring-icon.png" alt="Domain Monitoring"> -->
+                                        <div>
+                                            <strong>Domain monitoring</strong>
+                                            <p>Don't let your unique domain name expire.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dropdown-separator"></div>
+                            <div class="dropdown-footer">
+                                <a href="#">For every team: DevOps</a>
+                                <a href="#">Developers</a>
+                                <a href="#">Marketers</a>
+                                <a href="#">Support</a>
+                                <a href="#">Business owners</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Integrations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Status Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resources
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="keyword-monitoring-icon.png" alt="Keyword Monitoring"> -->
+                                        <div>
+                                            <strong>Keyword monitoring</strong>
+                                            <p>Check presence of any text on the page.</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="ping-monitoring-icon.png" alt="Ping Monitoring"> -->
+                                        <div>
+                                            <strong>Ping monitoring</strong>
+                                            <p>Leverage one of the most used network admin tools.</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="ssl-monitoring-icon.png" alt="SSL Monitoring"> -->
+                                        <div>
+                                            <strong>SSL monitoring</strong>
+                                            <p>Don't lose visitors because of expired SSL certificates.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="website-monitoring-icon.png" alt="Website Monitoring"> -->
+                                        <div>
+                                            <strong>Website monitoring</strong>
+                                            <p>Be the first to know that your website is down!</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="cron-job-monitoring-icon.png" alt="Cron Job Monitoring"> -->
+                                        <div>
+                                            <strong>Cron job monitoring</strong>
+                                            <p>Monitor background jobs or intranet devices.</p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-custom" href="#">
+                                        <!-- <img src="domain-monitoring-icon.png" alt="Domain Monitoring"> -->
+                                        <div>
+                                            <strong>Domain monitoring</strong>
+                                            <p>Don't let your unique domain name expire.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dropdown-separator"></div>
+                            <div class="dropdown-footer">
+                                <a href="#">For every team: DevOps</a>
+                                <a href="#">Developers</a>
+                                <a href="#">Marketers</a>
+                                <a href="#">Support</a>
+                                <a href="#">Business owners</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a href="" class="btn text-light login-btn"> Log In</a>
+                <a class="btn btn-register" href="#">Register for FREE</a>
+            </div>
+        </div>
+    </nav>
+<!-- uptime monitoring service  start -->
+<section class="hero-section text-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <h1 class="display-6 font-weight-bold">
+                    The world's leading <span class="text-success">uptime monitoring</span> service.
+                </h1>
+                <p class="lead my-4">Get <strong>50 monitors</strong> with 5-minute checks totally <span class="text-success">FREE</span>.</p>
+                <a href="#" class="btn btn-success btn-lg">Start monitoring in 30 seconds</a>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 d-none d-lg-block">
+                <img src="./images/img1.png" alt="Monitoring Dashboard" class="img-fluid" >
+            </div>
+        </div>
+    </div>
+    <center><h6 class="text-muted align-items-center ">Currently, we keep an eye on <span class="font-weight-bolder text-light"> 7,570,000</span> monitors for more than <span class="font-weight-bolder text-light">2,100,000</span> users and companies.</h6></center>
+</section>
+<!-- uptime monitoring service  end -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
